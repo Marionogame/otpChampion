@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		"target": "ESNext",
+		"module": "CommonJS",
+		"baseUrl": "./src",
+		"paths": {
+			"@Api/*": ["./Api/*"],
+			"@Components/*": ["./Components/*"],
+			"@Features/*": ["./Features/*"],
+			"@Hooks/*": ["./Hooks/*"],
+			"@IndexedDB/*": ["./IndexedDB/*"],
+			"@Modals/*": ["./Modals/*"],
+			"@Redux/*": ["./Redux/*"],
+			"@Actions/*": ["./Redux/Actions/*"],
+			"@Socket/*": ["./Socket/*"],
+			"@Styles/*": ["./Styles/*"],
+			"@Utils/*": ["./Utils/*"]
+		}
+	},
+	"exclude": ["node_modules", "build"]
+}

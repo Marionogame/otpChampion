@@ -1,0 +1,118 @@
+.activeItem {
+	display: flex !important;
+	flex-direction: row !important;
+	align-items: center !important;
+	width: 100% !important;
+}
+
+.item {
+	border: 0 !important;
+	padding: 1rem !important;
+}
+
+.item:hover {
+	padding: 1rem 1rem 1rem 0.75rem !important;
+	border-left: 0.25rem solid var(--blue600) !important;
+	cursor: pointer;
+	background-color: var(--gray150) !important;
+}
+
+.itemMultiple {
+	border: 0 !important;
+	padding: 1rem 1rem 1rem 0.75rem !important;
+}
+
+.itemSelect {
+	border: 0 !important;
+	padding: 1rem 1rem 1rem 0.75rem !important;
+	border-left: 0.25rem solid var(--blue600) !important;
+	cursor: pointer;
+	background-color: var(--gray100) !important;
+}
+
+.itemSelect:hover {
+	background-color: var(--gray150) !important;
+}
+
+.itemSelectMultiple {
+	border: 0;
+	border-left: 0.25rem solid var(--blue600);
+	background-color: var(--gray100);
+}
+
+.menu {
+	padding: 0 !important;
+	margin: 0 !important;
+	box-shadow: none !important;
+	border: none !important;
+}
+
+.titleMenuItem {
+	display: flex !important;
+	flex-direction: row !important;
+	align-items: center !important;
+	padding: 0.9375rem 0.75rem !important;
+	border-bottom: 1px solid var(--black) !important;
+}
+
+.titleMenuItem:hover {
+	cursor: pointer;
+	background-color: var(--gray150) !important;
+}
+
+.menuItem {
+	display: flex !important;
+	flex-direction: row !important;
+	align-items: center !important;
+	justify-content: flex-start !important;
+	padding: 0.9375rem 1.25rem !important;
+}
+
+.activeMenuItem {
+	display: flex !important;
+	flex-direction: row !important;
+	align-items: center !important;
+	padding: 0.9375rem 1.25rem !important;
+	background-color: var(--gray250) !important;
+}
+
+.activeMenuItem:hover {
+	padding: 0.9375rem 0.75rem !important;
+	background-color: var(--gray300) !important;
+}
+
+.menuItem:hover {
+	padding: 0.9375rem 0.75rem !important;
+	cursor: pointer;
+	background-color: var(--gray200) !important;
+}
+
+.titleText {
+	font-weight: 700 !important;
+	color: var(--black) !important;
+	opacity: 1 !important;
+	text-align: center !important;
+}
+
+.text {
+	color: var(--black) !important;
+	opacity: 1 !important;
+	text-align: center !important;
+}
+
+.subText {
+	font-weight: 300 !important;
+	font-size: 0.875rem !important;
+	color: var(--black) !important;
+	opacity: 1 !important;
+	text-align: center !important;
+}
+
+.icon {
+	margin: 0 0.5rem 0 0 !important;
+}
+
+.subIcon {
+	margin: 0 0.5rem 0 0 !important;
+	font-size: 0.875rem !important;
+}

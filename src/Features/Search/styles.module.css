@@ -1,0 +1,119 @@
+.containerHome {
+	width: 100%;
+}
+
+.title {
+	font-size: 80px !important;
+}
+.contInput {
+	margin-bottom: 40px !important;
+}
+.mensagge {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+
+	z-index: 2;
+}
+.dropdown {
+	background-color: #5829bb !important;
+	color: #fff !important;
+}
+.mensaggeCont {
+	width: 350px !important;
+}
+
+.contSearch {
+	margin-top: 30px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/* .contInput {
+	width: 80%;
+	min-height: 30px;
+}
+.input {
+	width: 80% !important;
+	height: 100% !important;
+	font-size: 40px !important;
+
+	-webkit-box-flex: 1 !important;
+	-ms-flex: 1 0 auto !important;
+	flex: 1 0 auto !important;
+	outline: 0 !important;
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0) !important;
+	text-align: left !important;
+	font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif !important;
+	padding: 0.67857143em 1em !important;
+	background: #fff !important;
+	border: 1px solid rgba(34, 36, 38, 0.15) !important;
+	color: rgba(0, 0, 0, 0.87) !important;
+	-webkit-border-top-right-radius-: 50px;
+	-moz-border-top-right-radius: 50px;
+	border-top-right-radius: 50px;
+	-webkit-border-bottom-right-radius-: 50px;
+	-moz-border-bottom-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+}
+
+.dropdawn {
+	cursor: pointer !important;
+	display: inline-block !important;
+	outline: 0 !important;
+	border: none !important;
+	vertical-align: baseline !important;
+	background: #6385ab none !important;
+	color: rgb(255, 255, 255) !important;
+	font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif !important;
+	margin: 0 0.25em 0 0 !important;
+	padding: 2.78571429em 1.5em 1.88571429em !important;
+	-webkit-border-top-left-radius: 80px;
+	-webkit-border-bottom-left-radius: 80px;
+	-moz-border-radius-topleft: 80px;
+	-moz-border-radius-bottomleft: 80px;
+	border-top-left-radius: 80px;
+	border-bottom-left-radius: 80px;
+} */
+.contText {
+	width: 40px;
+	height: 140px;
+	background-color: blue;
+	transform: rotate(35deg);
+	position: absolute;
+	right: 70%;
+	z-index: 2;
+}
+
+@media only screen and (max-width: 768px) {
+	.mensagge {
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 2;
+	}
+	.messajeLetter {
+		font-size: 20px !important;
+	}
+	.mensaggeCont {
+		width: 220px !important;
+	}
+	.messajeIcon {
+		font-size: 28px !important;
+	}
+}

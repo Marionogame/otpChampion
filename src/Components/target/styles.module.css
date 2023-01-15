@@ -1,0 +1,37 @@
+.container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.contImage {
+	background: #5829bb;
+	margin-right: 12px;
+	margin-bottom: 20px;
+	width: 254px;
+	height: 268px;
+	border: 2px solid rgb(255, 255, 255);
+	border-radius: 10px;
+}
+.buttonPurple {
+	min-width: 140.5px !important;
+}
+.iconTarget {
+	margin-right: 8px !important;
+}
+.buttonWhite {
+	min-width: 110.5px !important;
+}
+.imageSize {
+	min-width: 250px !important;
+	border-radius: 12px 12px 0px 0px !important;
+	max-height: 240px !important;
+}
+.contTarget {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.buttonCont {
+	border-radius: 0px 0px 0px 0px !important;
+}
