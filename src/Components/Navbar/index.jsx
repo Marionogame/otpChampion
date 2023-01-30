@@ -1,12 +1,13 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Image, Menu } from "semantic-ui-react";
 import { animateScroll as scroll } from "react-scroll";
 import PropTypes from "prop-types";
 // Components
 import Input from "@Components/Input";
+import { useNavigate } from "react-router-dom";
+import optionSearch from "./staticData";
 
 // Styles
-import { useNavigate } from "react-router-dom";
 // import { isEmpty, get } from "lodash";
 import styles from "./styles.module.css";
 
@@ -37,9 +38,12 @@ import styles from "./styles.module.css";
 // 	return windowWidth;
 // };
 
-const Navbar = ({ logo, activeName }) => {
+const Navbar = ({ logo }) => {
 	// const { scroller } = Scroll;
 	const navigate = useNavigate();
+	const [field, setField] = useState("LAN");
+
+	const [search, setSearch] = useState("");
 	// const [activeNameBar, setActiveNameBar] = useState("Inicio");
 	// const [visible, setVisible] = useState(false);
 
@@ -216,7 +220,7 @@ const Navbar = ({ logo, activeName }) => {
 						</Menu.Item>
 					)} */}
 				{/* {widthSize < tableWidth && ( */}
-				<Menu.Item className={styles.menuItem} active={activeName === "Inicio"}>
+				<Menu.Item className={styles.menuItem}>
 					{/* <Dropdown direction="left" icon="sidebar">
 							<Dropdown.Menu>
 								<Dropdown.Item
@@ -252,7 +256,7 @@ const Navbar = ({ logo, activeName }) => {
 							</Dropdown.Menu>
 						</Dropdown> */}
 
-					<Input
+					{/* <Input
 						icon="barcode"
 						// label="Nombre:"
 						name="hotkey"
@@ -263,9 +267,61 @@ const Navbar = ({ logo, activeName }) => {
 						// onChange={(e) => {
 						// 	return setName(e.target.value);
 						// }}
-					/>
+					/> */}
+					<div className={styles.contInput}>
+						{/* <Dropdown
+							className={styles.dropdown}
+							onChange={(e, data) => {
+								return setField(data.value);
+							}}
+							value={field}
+							options={optionSearch}
+						/> */}
+						{/* <Input
+							value={search}
+							// className={styles.input}
+							rounded
+							// labelPosition="right"
+							placeholder="Campeon"
+							onChange={(e) => {
+								return setSearch(e.target.value);
+							}}
+						/> */}
+						{/* <Input
+							value={search}
+							action={{
+								color: "teal",
+								labelPosition: "left",
+								icon: "cart",
+								content: "Checkout",
+							}}
+							onChange={(e) => {
+								return setSearch(e.target.value);
+							}}
+							actionPosition="left"
+							placeholder="Search..."
+							defaultValue="52.03"
+						/> */}
+
+						<Input
+							size="mini"
+							name="searchString"
+							placeholder="Buscar"
+							value={search}
+							dropdown={{
+								className: styles.dropdown,
+								options: optionSearch,
+								onChange: (e, data) => {
+									return setField(data.value);
+								},
+								value: field,
+							}}
+							onChange={(e) => {
+								return setSearch(e.target.value);
+							}}
+						/>
+					</div>
 				</Menu.Item>
-				{/* )} */}
 			</Menu>
 			{/* {widthSize > tableWidth && (
 				<Menu color="black" className={styles.constMenuBar} fixed="top">
@@ -278,6 +334,5 @@ const Navbar = ({ logo, activeName }) => {
 
 Navbar.propTypes = {
 	logo: PropTypes.string,
-	activeName: PropTypes.string,
 };
 export default Navbar;

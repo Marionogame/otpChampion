@@ -27,17 +27,13 @@
 }
 .constMenu {
 	background: rgb(104, 143, 182) !important;
-	background: linear-gradient(
-		68deg,
-		rgba(104, 143, 182, 1) 0%,
-		rgba(121, 158, 202, 1) 30%,
-		rgba(39, 63, 87, 1) 92%,
-		rgba(30, 51, 73, 1) 98%
-	) !important;
+	background: linear-gradient(68deg, #5829bb 0%, #5829bb 30%, #5829bb 92%, #5829bb 98%) !important;
+
 	box-shadow: 3px 3px 3px rgb(36, 36, 36) !important;
 	height: 50px !important;
 	z-index: 99 !important;
 }
+
 .constMenuBar {
 	background: rgba(0, 0, 0, 0.6) !important;
 	/* min-height: 240px !important; */
@@ -59,23 +55,38 @@
 }
 .dropdownText {
 	color: rgba(30, 51, 73, 1) !important;
+
+	/* background: rgba(30, 51, 73, 1) !important; */
+}
+.dropdown {
+	background-color: #3e1399 !important;
+	min-width: 70px !important;
+
 	/* background: rgba(30, 51, 73, 1) !important; */
 }
 .menuItem {
 	/* font-size: 22px !important; */
-	height: 100%;
-	padding-top: 0 !important;
+	/* height: 100%; */
+	/* padding-top: 0 !important;
 	padding-bottom: 0 !important;
-	border: 0 !important;
+	border: 0 !important; */
 	/* padding-top: 5px !important; */
 	color: white !important;
 	/* padding-bottom: 15px !important; */
-	width: 300px !important ;
+	/* width: 500px !important ; */
 	display: flex;
 	align-items: center !important;
 }
 .input {
-	width: 100% !important;
+	width: 80% !important;
+
+	margin-left: 10px !important;
+}
+.contInput {
+	width: 300px;
+	display: flex;
+	align-items: center !important;
+	margin-right: 40px !important;
 }
 .menuItem::before {
 	content: none !important;

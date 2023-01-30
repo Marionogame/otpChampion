@@ -4,13 +4,18 @@
 	justify-content: center;
 }
 .contImage {
-	background: #5829bb;
-	margin-right: 12px;
-	margin-bottom: 20px;
+	background: #3e1399;
+	margin-right: 6px;
+	margin-left: 6px;
+	margin-bottom: 30px;
 	width: 254px;
 	height: 268px;
 	border: 2px solid rgb(255, 255, 255);
 	border-radius: 10px;
+}
+.buttonPurple {
+	background: #3e1399 !important;
+	color: aliceblue !important;
 }
 .buttonPurple {
 	min-width: 140.5px !important;

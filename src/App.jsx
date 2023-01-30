@@ -11,6 +11,7 @@ import { ReactNotifications } from "react-notifications-component";
 import PublicRoute from "@Components/PublicRoute";
 
 // Features
+import ViewChamp from "@Features/ViewChamp";
 
 import Search from "@Features/Search";
 
@@ -22,6 +23,7 @@ const App = () => {
 			<Routes>
 				<Route element={<PublicRoute />}>
 					<Route path="search" element={<Search />} />
+					<Route path="viewChamp" element={<ViewChamp />} />
 				</Route>
 				<Route path="*" element={<p>No Match</p>} />
 			</Routes>

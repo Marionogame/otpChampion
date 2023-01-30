@@ -16,7 +16,7 @@ const Target = ({ data }) => {
 						<Image src={yorick} rounded className={styles.imageSize} />
 						<div>
 							<Button as="div" className={styles.buttonCont} labelPosition="right">
-								<Button className={styles.buttonPurple} color="violet">
+								<Button className={styles.buttonPurple}>
 									<Icon name="sitemap" className={styles.iconTarget} />
 									{get(item, "name", "")}
 								</Button>
