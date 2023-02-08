@@ -8,23 +8,23 @@ import ListVideos from "./Components/ListVideos";
 
 import ViewVideo from "./Components/ViewVideo";
 import optChampion from "./assets/otpchampion2.png";
-// import styles from "./styles.module.css";
+import styles from "./styles.module.css";
 
 const ViewChamp = () => {
 	return (
-		<div>
+		<div className={styles.container}>
 			<Navbar logo={optChampion} activeName="Inicio" />
 
-			<Grid>
-				<Grid.Column width={3}>
-					<ChampStatistics />
-				</Grid.Column>
-				<Grid.Column width={9}>
-					<ViewVideo />
-				</Grid.Column>
-				<Grid.Column width={4}>
-					<ListVideos />
-				</Grid.Column>
+			<Grid className={styles.grid}>
+				<Grid.Row>
+					<Grid.Column className={styles.column} width={12}>
+						<ViewVideo />
+					</Grid.Column>
+					<Grid.Column className={styles.column} width={4}>
+						<ChampStatistics />
+						<ListVideos />
+					</Grid.Column>
+				</Grid.Row>
 			</Grid>
 		</div>
 	);

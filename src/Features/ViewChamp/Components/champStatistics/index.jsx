@@ -10,51 +10,44 @@ const ChampStatistics = () => {
 	return (
 		<div>
 			<Card className={styles.card}>
-				<Card.Content>
+				<Card.Content className={styles.cardContent}>
 					<Card.Header className={styles.cardHeader}>
-						<div className={styles.contCenterImg}>
-							<Image floated="left" className={styles.image} src={yorick} />
-							Urgot
-						</div>
+						<div className={styles.contCenterImg}>Urgot</div>
 					</Card.Header>
 
-					<Card.Description>
-						<div className={styles.contCenter}>
-							<div className={styles.titleText}>KDA</div>
-						</div>
-						<div className={styles.contCenter}>
-							<div className={styles.subTitleText}>8/5/23</div>
-						</div>
-						<div className={styles.contCenter}>
-							<div className={styles.titleText}>Farmeo</div>
-						</div>
-						<div className={styles.contCenter}>
-							<div className={styles.subTitleText}>165</div>
-						</div>
-						<div className={styles.contCenter}>
-							<div className={styles.titleText}>Tiempo de partida</div>
-						</div>
-						<div className={styles.contCenter}>
-							<div className={styles.subTitleText}>1:12:03</div>
+					<Card.Description className={styles.contDescription}>
+						<Image floated="left" className={styles.image} src={yorick} />
+						<div>
+							<div className={styles.contCenter}>
+								<div className={styles.titleText}>Tiempo:</div>
+								<div className={styles.subTitleText}>{` 1:12:03`}</div>
+							</div>
+							<div className={styles.contCenter}>
+								<div className={styles.titleText}>KDA:</div>
+								<div className={styles.subTitleText}>{` 8/5/23`}</div>
+							</div>
+							<div className={styles.contCenterBottom}>
+								<div className={styles.titleText}>Farmeo:</div>
+								<div className={styles.subTitleText}>{` 165`}</div>
+							</div>
 						</div>
 					</Card.Description>
 				</Card.Content>
 			</Card>
 
 			<Card className={styles.card}>
-				<Card.Content>
+				<Card.Content className={styles.cardContent}>
 					<Card.Header className={styles.cardHeader}>
-						<div className={styles.contCenterImg}>Build</div>
+						<div className={styles.contCenterImg}>Build Usada</div>
 					</Card.Header>
 
 					<div>
-						<Image.Group>
+						<Image.Group className={styles.imgGroup}>
 							<Image className={styles.imgItems} src={yorick} />
 							<Image className={styles.imgItems} src={yorick} />
 							<Image className={styles.imgItems} src={yorick} />
 							<Image className={styles.imgItems} src={yorick} />
 							<Image className={styles.imgItems} src={yorick} />
-
 							<Image className={styles.imgItems} src={yorick} />
 						</Image.Group>
 					</div>

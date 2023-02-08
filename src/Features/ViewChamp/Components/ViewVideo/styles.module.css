@@ -4,4 +4,12 @@
 	border: 2px solid rgb(255, 255, 255) !important;
 	border-radius: 10px !important;
 	width: 100% !important;
+	height: 100% !important;
+}
+
+.video {
+	width: 100%;
+	aspect-ratio: 16 / 9;
+}
+.videoCont {
 }
