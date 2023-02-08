@@ -22,7 +22,7 @@ const App = () => {
 
 			<Routes>
 				<Route element={<PublicRoute />}>
-					<Route path="search" element={<Search />} />
+					<Route index element={<Search />} />
 					<Route path="viewChamp" element={<ViewChamp />} />
 				</Route>
 				<Route path="*" element={<p>No Match</p>} />

@@ -1,17 +1,17 @@
-import React, { useState } from "react";
+import React from "react";
 import Navbar from "@Components/Navbar";
-import { Dropdown, Grid, Image, Input, Divider, Icon, Header } from "semantic-ui-react";
+import { /* Dropdown, Grid, */ Image /* Input, Divider, Icon, Header */ } from "semantic-ui-react";
 // Components
 // import input from "@Components/Input";
-import Target from "@Components/target";
-import optionSearch from "./staticData";
+/* import Target from "@Components/target";
+import optionSearch from "./staticData"; */
 import optChampion from "./assets/otpchampion2.png";
 import lolSearch from "./assets/lolSearch.png";
 import styles from "./styles.module.css";
 
 const Search = () => {
-	const [field, setField] = useState("LAN");
-	const [search, setSearch] = useState("");
+	/* const [field, setField] = useState("LAN");
+	const [search, setSearch] = useState(""); */
 
 	return (
 		<div>
@@ -19,7 +19,7 @@ const Search = () => {
 			<div className={styles.contSearch}>
 				<Image src={lolSearch} rounded className={styles.imageSize} />
 			</div>
-			<div className={styles.contSearch}>
+			{/* <div className={styles.contSearch}>
 				<div className={styles.contInput}>
 					<Input
 						size="massive"
@@ -84,7 +84,7 @@ const Search = () => {
 						]}
 					/>{" "}
 				</Grid.Column>
-			</Grid>
+			</Grid> */}
 		</div>
 	);
 };

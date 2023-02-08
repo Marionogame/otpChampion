@@ -1,20 +1,4 @@
 import Compressor from "compressorjs";
-import { downloadFile, getFile } from "@Actions/downloads";
-import { isEmpty } from "lodash";
-
-export const getCompanyLogo = async (dispatch, logo, companyId) => {
-	if (!isEmpty(logo)) {
-		const split = logo.split("/");
-		const fileName = split[split.length - 1];
-		const file = await dispatch(getFile("logos", { companyId }, fileName));
-		if (file) {
-			return file;
-		}
-		const downloadedFile = await dispatch(downloadFile("logos", { companyId }, logo));
-		if (downloadedFile) return downloadedFile;
-	}
-	return null;
-};
 
 export const compressImage = (image) => {
 	return new Promise((resolve, reject) => {

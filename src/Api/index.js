@@ -1,6 +1,9 @@
 import axios from "axios";
-import { API_START, API_END, API_ERROR, API_FAILURE } from "@Actions/types";
-
+/* import { API_START, API_END, API_ERROR, API_FAILURE } from "@Actions/types";  */
+const API_START = "";
+const API_END = "";
+const API_ERROR = "";
+const API_FAILURE = "";
 const Api = axios.create({
 	baseURL: process.env.REACT_APP_API_URL,
 	headers: {
@@ -39,5 +42,3 @@ export function requestSuccess(type, data = null) {
 export function requestFail(data) {
 	return { type: API_FAILURE, payload: { data } };
 }
-
-//comentario borrar

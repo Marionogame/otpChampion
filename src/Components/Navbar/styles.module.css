@@ -7,7 +7,6 @@
 }
 
 .constNavbar {
-	background: #c2e7fa;
 	height: 55px !important;
 }
 
@@ -19,24 +18,21 @@
 	top: 70px !important;
 	padding-top: 18px !important;
 	width: 168px !important;
-	/* max-height: 140px !important; */
 }
 .contItem {
 	width: 200px !important;
 	padding-top: 100px !important;
 }
 .constMenu {
-	background: rgb(104, 143, 182) !important;
-	background: linear-gradient(68deg, #5829bb 0%, #5829bb 30%, #5829bb 92%, #5829bb 98%) !important;
-
-	box-shadow: 3px 3px 3px rgb(36, 36, 36) !important;
+	background: rgb(33, 45, 52) !important;
+	background: linear-gradient(90deg, rgba(33, 45, 52, 1) 0%, rgba(5, 0, 15, 1) 100%) !important;
 	height: 50px !important;
 	z-index: 99 !important;
 }
 
 .constMenuBar {
 	background: rgba(0, 0, 0, 0.6) !important;
-	/* min-height: 240px !important; */
+
 	margin-top: 70px !important;
 	height: 45px !important;
 }
@@ -59,10 +55,16 @@
 	/* background: rgba(30, 51, 73, 1) !important; */
 }
 .dropdown {
-	background-color: #3e1399 !important;
-	min-width: 70px !important;
-
-	/* background: rgba(30, 51, 73, 1) !important; */
+	background: rgb(255, 252, 189) !important;
+	background: linear-gradient(
+		346deg,
+		rgba(255, 252, 189, 1) 0%,
+		rgba(251, 226, 129, 1) 7%,
+		rgba(217, 183, 109, 1) 14%,
+		rgba(140, 109, 45, 1) 40%,
+		rgba(244, 214, 97, 1) 75%,
+		rgba(167, 141, 79, 1) 100%
+	) !important;
 }
 .menuItem {
 	/* font-size: 22px !important; */
