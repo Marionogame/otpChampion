@@ -4,21 +4,35 @@
 	justify-content: center;
 }
 .contImage {
-	background: #3e1399;
-	margin-right: 6px;
-	margin-left: 6px;
-	margin-bottom: 30px;
+	background: #682f06;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: 50px;
 	width: 254px;
 	height: 268px;
-	border: 2px solid rgb(255, 255, 255);
+	/* 	border: 2px solid rgb(0, 0, 0); */
 	border-radius: 10px;
 }
 .buttonPurple {
-	background: #3e1399 !important;
+	background: rgb(255, 252, 189) !important;
+	background: linear-gradient(
+		346deg,
+		rgba(255, 252, 189, 1) 0%,
+		rgba(251, 226, 129, 1) 7%,
+		rgba(217, 183, 109, 1) 14%,
+		rgba(140, 109, 45, 1) 40%,
+		rgba(244, 214, 97, 1) 75%,
+		rgba(167, 141, 79, 1) 100%
+	) !important;
 	color: aliceblue !important;
 }
 .buttonPurple {
 	min-width: 140.5px !important;
+}
+.views {
+	font-family: Comic Sans;
+	font-size: 1.2rem;
+	color: rgb(11, 53, 78) !important;
 }
 .iconTarget {
 	margin-right: 8px !important;

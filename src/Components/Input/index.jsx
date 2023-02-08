@@ -23,6 +23,7 @@ const Input = forwardRef((props, ref) => {
 		onKeyPress,
 		dropdown,
 		fluid = true,
+		big,
 	} = props;
 	const input = useRef(null);
 	const [type, setType] = useState(isPassword ? "password" : "text");
@@ -49,6 +50,11 @@ const Input = forwardRef((props, ref) => {
 			(ref || input).current.style.setProperty("border-top-left-radius", "0", "important");
 			(ref || input).current.style.setProperty("border-bottom-left-radius", "0", "important");
 			(ref || input).current.style.setProperty("border-left-color", "transparent", "important");
+		}
+		if (big) {
+			(ref || input).current.style.removeProperty("flex-wrap");
+			(ref || input).current.style.setProperty("height", "2.4rem", "important");
+			(ref || input).current.style.setProperty("font-size", "1.2rem", "important");
 		}
 	}, [rounded, value, dropdown, ref]);
 
@@ -131,6 +137,7 @@ Input.propTypes = {
 	rounded: PropTypes.bool,
 	dropdown: PropTypes.object,
 	fluid: PropTypes.bool,
+	big: PropTypes.bool,
 	isPassword: PropTypes.bool,
 };
 

@@ -19,7 +19,6 @@ const App = () => {
 	return (
 		<Dimmer.Dimmable>
 			<ReactNotifications />
-
 			<Routes>
 				<Route element={<PublicRoute />}>
 					<Route index element={<Search />} />

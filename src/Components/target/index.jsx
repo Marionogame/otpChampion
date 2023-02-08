@@ -20,9 +20,9 @@ const Target = ({ data }) => {
 									<Icon name="sitemap" className={styles.iconTarget} />
 									{get(item, "name", "")}
 								</Button>
-								<Label as="a" className={styles.buttonWhite} basic color="violet" pointing="left">
+								<Label as="a" className={styles.buttonWhite} basic pointing="left">
 									<Icon name="file video outline" />
-									{get(item, "views", "")}
+									<span className={styles.views}>{get(item, "views", "")}</span>
 								</Label>
 							</Button>
 						</div>
