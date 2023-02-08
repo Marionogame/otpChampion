@@ -39,3 +39,5 @@ export function requestSuccess(type, data = null) {
 export function requestFail(data) {
 	return { type: API_FAILURE, payload: { data } };
 }
+
+//comentario borrar
