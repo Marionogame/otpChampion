@@ -185,13 +185,14 @@
 
 .grid2 {
 	background-color: #050010 !important;
-	z-index: 90 !important;
-	height: 100 !important;
+	height: 100% !important;
 	background-image: url("../../assets/fondo.jpg");
-	background-position: center;
-	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	z-index: 1 !important;
 }
+
 .grid {
 	margin-top: -145px !important;
 	background-color: #050010 !important;
