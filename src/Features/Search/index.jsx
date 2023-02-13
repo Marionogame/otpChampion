@@ -8,6 +8,7 @@ import optionSearch from "./staticData";
 import optChampion from "./assets/otpchampion2.png";
 import lolSearch from "./assets/lolSearch.png";
 import vidioBg from "./assets/video.mp4";
+/* import imageBg from "../../assets/fondo.jpg"; */
 import styles from "./styles.module.css";
 
 const Search = () => {
@@ -74,6 +75,7 @@ const Search = () => {
 			</Grid>
 
 			<Grid className={styles.grid2}>
+				{/* <img src={imageBg} alt="hola" className={styles.cardBackground} /> */}
 				<Grid.Column width={16}>
 					<Target
 						data={[
