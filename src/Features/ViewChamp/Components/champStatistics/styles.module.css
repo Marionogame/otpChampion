@@ -1,0 +1,62 @@
+.image {
+	min-width: 6.2rem;
+	height: 5.2rem;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+.imgItems {
+	min-width: 3rem;
+	height: 3rem;
+	padding: 0;
+	margin: 0;
+}
+.card {
+	width: 100% !important;
+
+	margin-bottom: 10px !important;
+	padding: 0 !important;
+	border: 2px solid rgb(255, 255, 255) !important;
+	border-radius: 10px !important;
+}
+.contDescription {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.cardContent {
+	padding: 5px !important;
+}
+.contCenter {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	margin-bottom: 15px !important;
+}
+.contCenterBottom {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	margin-bottom: 5px !important;
+}
+.imgGroup {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.titleText {
+	font-weight: 600;
+	color: #3e1399;
+}
+.subTitleText {
+	font-size: 16px;
+	font-weight: 600;
+	margin-left: 5px;
+	color: #d5b76a;
+	border: black;
+}
+
+.cardHeader {
+	color: #3e1399 !important;
+	display: flex !important;
+	justify-content: center;
+}

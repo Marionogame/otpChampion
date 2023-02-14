@@ -1,0 +1,230 @@
+* {
+	box-sizing: border-box;
+}
+
+.containerHome {
+	width: 100%;
+	height: 100%;
+}
+.hero2 {
+	position: absolute;
+	padding-left: auto;
+	/* 	float: left; */
+	top: 10%;
+	bottom: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 60%;
+	height: 100%;
+	opacity: 0.3;
+	background: rgb(33, 45, 52) !important;
+	/* 	background: linear-gradient(90deg, rgba(140, 109, 45, 1) 0%, rgb(82, 0, 0) 65%) !important; */
+	background: linear-gradient(90deg, rgba(140, 109, 45, 1) 0%, rgb(82, 0, 0) 65%) !important;
+	z-index: -22 !important;
+}
+.hero {
+	width: 100%;
+	height: 93vh !important;
+	z-index: -2 !important;
+}
+
+.videoBackground {
+	position: fixed;
+	margin-top: -10%;
+	object-fit: cover;
+	z-index: -2;
+}
+
+.title {
+	font-size: 80px !important;
+}
+.contInput {
+	width: 500px;
+	display: flex;
+	align-items: center !important;
+}
+.input {
+	height: 3rem !important;
+}
+
+.rowContainer {
+	font-family: Comic Sans;
+	font-weight: 800 !important;
+	background: -webkit-linear-gradient(
+		rgba(255, 252, 189, 1) 0%,
+		rgba(251, 226, 129, 1) 7%,
+		rgba(217, 183, 109, 1) 14%,
+		rgba(140, 109, 45, 1) 40%,
+		rgba(244, 214, 97, 1) 75%,
+		rgba(167, 141, 79, 1) 100%
+	);
+	background-clip: border-box;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.row {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	background: -webkit-linear-gradient(
+		rgba(255, 252, 189, 1) 0%,
+		rgba(251, 226, 129, 1) 7%,
+		rgba(217, 183, 109, 1) 14%,
+		rgba(140, 109, 45, 1) 40%,
+		rgba(244, 214, 97, 1) 75%,
+		rgba(167, 141, 79, 1) 100%
+	);
+	background-clip: border-box;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.titleLabel {
+	display: flex;
+	width: 100% !important;
+	height: 100% !important;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 23px !important;
+	font-size: 2rem !important;
+}
+
+.icon {
+	background-color: #3e1399;
+	color: #fff;
+	margin-left: 15px !important;
+}
+.mensagge {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+}
+.dropdown {
+	background: rgb(255, 252, 189) !important;
+	background: linear-gradient(
+		346deg,
+		rgba(255, 252, 189, 1) 0%,
+		rgba(251, 226, 129, 1) 7%,
+		rgba(217, 183, 109, 1) 14%,
+		rgba(140, 109, 45, 1) 40%,
+		rgba(244, 214, 97, 1) 75%,
+		rgba(167, 141, 79, 1) 100%
+	) !important;
+}
+.mensaggeCont {
+	width: 350px !important;
+}
+.imageSize {
+	width: 520px !important;
+	height: 215px !important;
+}
+.contSearch {
+	margin-top: 5%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.inputContainer {
+	margin-top: 0.5rem;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contText {
+	width: 40px;
+	height: 140px;
+	background-color: blue;
+	transform: rotate(35deg);
+	position: absolute;
+	right: 70%;
+	z-index: 2;
+}
+.listDigLeft {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	display: block;
+	margin-right: 50px;
+	width: 50%;
+	border-right: 30px solid transparent;
+	border-bottom: 30px ridge rgba(244, 214, 97, 1);
+
+	height: 0;
+	line-height: 50px;
+}
+.listDigRight {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	display: block;
+	width: 50%;
+	border-left: 30px solid transparent;
+	border-bottom: 30px ridge #9e1407;
+	height: 0;
+	line-height: 50px;
+	margin-left: 50px;
+}
+.contRow {
+	width: 100%;
+	display: flex;
+	align-items: center !important;
+}
+
+.grid2 {
+	background-color: #050010 !important;
+	height: 100% !important;
+	background-image: url("../../assets/fondo.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	z-index: 1 !important;
+}
+
+.grid {
+	margin-top: -145px !important;
+	background-color: #050010 !important;
+	z-index: 90 !important;
+	height: 100 !important;
+}
+
+.column {
+	display: flex !important;
+	align-items: center !important;
+}
+@media only screen and (max-width: 768px) {
+	.mensagge {
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 2;
+	}
+	.messajeLetter {
+		font-size: 20px !important;
+	}
+	.mensaggeCont {
+		width: 220px !important;
+	}
+	.messajeIcon {
+		font-size: 28px !important;
+	}
+}

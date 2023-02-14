@@ -1,0 +1,76 @@
+{
+	"name": "otpchampion",
+	"version": "0.1.0",
+	"homepage": "https://Marionogame.github.io/otpChampion",
+	"private": true,
+	"scripts": {
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build",
+		"start": "craco start",
+		"build": "craco build",
+		"test": "craco test",
+		"check": "yarn run format && yarn run lint",
+		"lint": "eslint src/**/*.js src/**/*.jsx --fix --max-warnings=0",
+		"format": "prettier . --write",
+		"prepare": "husky install",
+		"postinstall": "yarn run prepare && yarn run check"
+	},
+	"dependencies": {
+		"@craco/craco": "^7.0.0",
+		"@fortawesome/fontawesome-svg-core": "^6.2.1",
+		"@fortawesome/free-solid-svg-icons": "^6.2.1",
+		"@fortawesome/react-fontawesome": "^0.2.0",
+		"axios": "^1.2.1",
+		"compressorjs": "^1.1.1",
+		"dexie": "^3.2.2",
+		"form-data": "^4.0.0",
+		"joi": "^17.7.0",
+		"libphonenumber-js": "^1.10.15",
+		"lodash": "^4.17.21",
+		"moment": "^2.29.4",
+		"prop-types": "^15.8.1",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-idle-timer": "^5.4.2",
+		"react-notifications-component": "^4.0.1",
+		"react-router-dom": "^6.4.5",
+		"react-scripts": "5.0.1",
+		"react-scroll": "^1.8.8",
+		"react-virtualized": "^9.22.3",
+		"semantic-ui-css": "^2.5.0",
+		"semantic-ui-react": "^2.1.4",
+		"web-vitals": "^2.1.0"
+	},
+	"devDependencies": {
+		"craco-alias": "^3.0.1",
+		"eslint": "^8.29.0",
+		"eslint-config-airbnb": "^19.0.4",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-import-resolver-alias": "^1.1.2",
+		"eslint-plugin-import": "^2.26.0",
+		"eslint-plugin-jsx-a11y": "^6.6.1",
+		"eslint-plugin-react": "^7.31.11",
+		"eslint-plugin-react-hooks": "^4.6.0",
+		"gh-pages": "^5.0.0",
+		"husky": "^8.0.2",
+		"lint-staged": "^13.1.0",
+		"prettier": "^2.8.1"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"lint-staged": {
+		"*.{js,jsx}": "npm run lint",
+		"*.{js,css,md,html,json}": "npm run format",
+		"*.--write": "npm run format"
+	}
+}
