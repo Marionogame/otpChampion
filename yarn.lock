@@ -8957,50 +8957,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"max-web@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "max-web@workspace:."
-  dependencies:
-    "@craco/craco": ^7.0.0
-    "@fortawesome/fontawesome-svg-core": ^6.2.1
-    "@fortawesome/free-solid-svg-icons": ^6.2.1
-    "@fortawesome/react-fontawesome": ^0.2.0
-    axios: ^1.2.1
-    compressorjs: ^1.1.1
-    craco-alias: ^3.0.1
-    dexie: ^3.2.2
-    eslint: ^8.29.0
-    eslint-config-airbnb: ^19.0.4
-    eslint-config-prettier: ^8.5.0
-    eslint-import-resolver-alias: ^1.1.2
-    eslint-plugin-import: ^2.26.0
-    eslint-plugin-jsx-a11y: ^6.6.1
-    eslint-plugin-react: ^7.31.11
-    eslint-plugin-react-hooks: ^4.6.0
-    form-data: ^4.0.0
-    gh-pages: ^5.0.0
-    husky: ^8.0.2
-    joi: ^17.7.0
-    libphonenumber-js: ^1.10.15
-    lint-staged: ^13.1.0
-    lodash: ^4.17.21
-    moment: ^2.29.4
-    prettier: ^2.8.1
-    prop-types: ^15.8.1
-    react: ^18.2.0
-    react-dom: ^18.2.0
-    react-idle-timer: ^5.4.2
-    react-notifications-component: ^4.0.1
-    react-router-dom: ^6.4.5
-    react-scripts: 5.0.1
-    react-scroll: ^1.8.8
-    react-virtualized: ^9.22.3
-    semantic-ui-css: ^2.5.0
-    semantic-ui-react: ^2.1.4
-    web-vitals: ^2.1.0
-  languageName: unknown
-  linkType: soft
-
 "mdn-data@npm:2.0.14":
   version: 2.0.14
   resolution: "mdn-data@npm:2.0.14"
@@ -9656,6 +9612,50 @@ __metadata:
   checksum: dbc6fa065604b24ea57d734261914e697bd73b69eff7f18e967e8912aa2a40a19a9f599a507fa805be6c13c24c4eae8c71306c239d517d42d4c041c942f508a0
   languageName: node
   linkType: hard
+
+"otpchampion@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "otpchampion@workspace:."
+  dependencies:
+    "@craco/craco": ^7.0.0
+    "@fortawesome/fontawesome-svg-core": ^6.2.1
+    "@fortawesome/free-solid-svg-icons": ^6.2.1
+    "@fortawesome/react-fontawesome": ^0.2.0
+    axios: ^1.2.1
+    compressorjs: ^1.1.1
+    craco-alias: ^3.0.1
+    dexie: ^3.2.2
+    eslint: ^8.29.0
+    eslint-config-airbnb: ^19.0.4
+    eslint-config-prettier: ^8.5.0
+    eslint-import-resolver-alias: ^1.1.2
+    eslint-plugin-import: ^2.26.0
+    eslint-plugin-jsx-a11y: ^6.6.1
+    eslint-plugin-react: ^7.31.11
+    eslint-plugin-react-hooks: ^4.6.0
+    form-data: ^4.0.0
+    gh-pages: ^5.0.0
+    husky: ^8.0.2
+    joi: ^17.7.0
+    libphonenumber-js: ^1.10.15
+    lint-staged: ^13.1.0
+    lodash: ^4.17.21
+    moment: ^2.29.4
+    prettier: ^2.8.1
+    prop-types: ^15.8.1
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    react-idle-timer: ^5.4.2
+    react-notifications-component: ^4.0.1
+    react-router-dom: ^6.4.5
+    react-scripts: 5.0.1
+    react-scroll: ^1.8.8
+    react-virtualized: ^9.22.3
+    semantic-ui-css: ^2.5.0
+    semantic-ui-react: ^2.1.4
+    web-vitals: ^2.1.0
+  languageName: unknown
+  linkType: soft
 
 "p-limit@npm:^2.0.0, p-limit@npm:^2.2.0":
   version: 2.3.0

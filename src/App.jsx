@@ -24,7 +24,7 @@ const App = () => {
 					<Route index element={<Search />} />
 					<Route path="viewChamp" element={<ViewChamp />} />
 				</Route>
-				<Route path="*" element={<p>No Match</p>} />
+				<Route path="*" element={<Search />} />
 			</Routes>
 		</Dimmer.Dimmable>
 	);
