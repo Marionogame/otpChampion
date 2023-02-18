@@ -1,7 +1,6 @@
 {
 	"name": "opt-champion",
 	"version": "0.1.0",
-	"homepage": "https://marionogame.github.io/otpChampion",
 	"private": true,
 	"scripts": {
 		"predeploy": "npm run build",
