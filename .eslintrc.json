@@ -25,7 +25,6 @@
 			}
 		}
 	},
-	"ignoreDuringBuilds": true,
 	"overrides": [],
 	"parserOptions": {
 		"ecmaFeatures": {
@@ -36,7 +35,6 @@
 	},
 	"plugins": ["react"],
 	"rules": {
-		"ignoreDuringBuilds": true,
 		"quotes": ["warn", "double", { "allowTemplateLiterals": true }],
 		"arrow-body-style": ["error", "always"],
 		"react/forbid-prop-types": "off",
