@@ -2,7 +2,7 @@
 	"files": {
 		"main.css": "/otpChampion/static/css/main.ff5c26ee.css",
 		"main.js": "/otpChampion/static/js/main.8271f14f.js",
-		"static/js/787.f2f82447.chunk.js": "/static/js/787.f2f82447.chunk.js",
+		"static/js/787.f2f82447.chunk.js": "/otpChampion/static/js/787.f2f82447.chunk.js",
 		"static/media/video.mp4": "/otpChampion/static/media/video.53104f9f9cc338c14565.mp4",
 		"static/media/otpchampion2.png": "/otpChampion/static/media/otpchampion2.be8b99cc39587279025e.png",
 		"static/media/fondo.jpg": "/otpChampion/static/media/fondo.97982a7b751fffa1e089.jpg",
@@ -28,7 +28,7 @@
 		"index.html": "/otpChampion/index.html",
 		"main.ff5c26ee.css.map": "/otpChampion/static/css/main.ff5c26ee.css.map",
 		"main.8271f14f.js.map": "/otpChampion/static/js/main.8271f14f.js.map",
-		"787.f2f82447.chunk.js.map": "/static/js/787.f2f82447.chunk.js.map"
+		"787.f2f82447.chunk.js.map": "/otpChampion/static/js/787.f2f82447.chunk.js.map"
 	},
 	"entrypoints": ["static/css/main.ff5c26ee.css", "static/js/main.8271f14f.js"]
 }
