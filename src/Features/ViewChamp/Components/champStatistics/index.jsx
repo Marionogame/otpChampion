@@ -8,7 +8,7 @@ import yorick from "../../assets/yorick.jpg";
 
 const ChampStatistics = () => {
 	return (
-		<div>
+		<div className={styles.containerCard}>
 			<Card className={styles.card}>
 				<Card.Content className={styles.cardContent}>
 					<Card.Header className={styles.cardHeader}>

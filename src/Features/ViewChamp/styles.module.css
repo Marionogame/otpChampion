@@ -4,10 +4,29 @@
 
 	background-color: brown;
 }
+
 .column {
 	/* margin: 0 !important; */
+	/* height: 100% !important; */
+	overflow: auto !important;
+	height: 100% !important;
+
+	/* height: 100vh !important; */
 	padding: 5px !important;
 }
 .grid {
+	/* overflow: auto !important; */
+	background-color: blueviolet;
+
+	max-height: calc(100% - 55px) !important;
+	/* height: 100% !important; */
+
 	margin: 0 !important;
 }
+/* .contFist {
+	height: 30% !important;
+}
+.contSecond {
+	height: 30% !important;
+	background-color: green;
+} */
