@@ -14,21 +14,18 @@ const ViewChamp = () => {
 	return (
 		<div className={styles.container}>
 			<Navbar logo={optChampion} activeName="Inicio" />
-
 			<Grid className={styles.grid}>
-				<Grid.Row>
-					<Grid.Column className={styles.column} width={12}>
-						<ViewVideo />
-					</Grid.Column>
-					<Grid.Column className={styles.column} width={4}>
-						<div className={styles.contFist}>
-							<ChampStatistics />
-						</div>
-						<div className={styles.contSecond}>
-							<ListVideos />
-						</div>
-					</Grid.Column>
-				</Grid.Row>
+				<Grid.Column className={styles.column} width={12}>
+					<ViewVideo />
+				</Grid.Column>
+				<Grid.Column className={styles.column} width={4}>
+					<div className={styles.contFist}>
+						<ChampStatistics />
+					</div>
+					<div className={styles.contSecond}>
+						<ListVideos />
+					</div>
+				</Grid.Column>
 			</Grid>
 		</div>
 	);

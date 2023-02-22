@@ -5,9 +5,24 @@
 	border: 2px solid rgb(255, 255, 255) !important;
 	border-radius: 10px !important;
 	width: 100% !important;
-	/* max-height: calc(100vh - 21.3rem); */
+
 	background-color: #d01919 !important;
+
+	width: 200px;
+	border: 1px solid #ddd;
+	background: #f1f1f1;
+	height: calc(100vh - 25.6rem);
+	overflow-y: scroll;
 }
+
+.carContainer {
+	height: 300px;
+	width: 200px;
+	border: 1px solid #ddd;
+	background: #f1f1f1;
+	overflow-y: scroll;
+}
+
 .cardHeader {
 	color: #3e1399 !important;
 }
