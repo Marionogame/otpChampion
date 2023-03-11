@@ -1,0 +1,199 @@
+/*NEED CLEAN CSS */
+.container {
+	background-color: #062c42 !important;
+	display: flex !important;
+	justify-content: space-between !important;
+	border-left: 2px solid rgba(167, 141, 79, 1) !important;
+	border-top: 2px solid rgba(167, 141, 79, 1) !important;
+	padding-top: 10px !important;
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+	padding-bottom: 0px !important;
+
+	border-right: 2px solid rgba(167, 141, 79, 1) !important;
+}
+.containerFooter {
+	background-color: #062c42 !important;
+	border-left: 2px solid rgba(167, 141, 79, 1) !important;
+	border-bottom: 2px solid rgba(167, 141, 79, 1) !important;
+	display: flex;
+	justify-content: space-between;
+	border-right: 2px solid rgba(167, 141, 79, 1) !important;
+}
+.contentModal {
+	background-color: #062c42 !important;
+	border-left: 2px solid rgba(167, 141, 79, 1) !important;
+	padding-right: 0px !important;
+	border-right: 2px solid rgba(167, 141, 79, 1) !important;
+	padding: 5px !important;
+}
+.positiveButton {
+	margin: 0 0.5rem 0 0 !important;
+	padding: 0.45rem 1rem !important;
+	min-width: 7rem !important;
+	color: var(--white) !important;
+	background-color: #01928e !important;
+}
+.checkBox {
+	margin-right: 0.5rem !important;
+}
+
+.negativeButton {
+	margin: 0 1rem 0 0rem !important;
+	padding: 0.45rem 1rem !important;
+	min-width: 7rem !important;
+	color: var(--white) !important;
+	background-color: var(--red500) !important;
+}
+.sectionTitle {
+	background-color: #01928e !important;
+	padding: 0.125rem 0;
+	margin-top: 7px !important;
+	margin-bottom: 7px !important;
+	display: flex;
+	justify-content: center;
+	color: #01928e !important;
+}
+.dropDawnOptions {
+	width: 7.2rem !important;
+	font-size: 1rem !important;
+	color: #fff !important;
+	background: rgb(255, 252, 189) !important;
+	background: linear-gradient(
+		346deg,
+		rgba(255, 252, 189, 1) 0%,
+		rgba(251, 226, 129, 1) 7%,
+		rgba(217, 183, 109, 1) 14%,
+		rgba(140, 109, 45, 1) 40%,
+		rgba(244, 214, 97, 1) 75%,
+		rgba(167, 141, 79, 1) 100%
+	) !important;
+}
+
+.sectionTitleText {
+	font-weight: 700 !important;
+	font-size: 1rem !important;
+	font-style: italic !important;
+	justify-content: center !important;
+	color: #d5b76a !important;
+	-webkit-text-stroke: 0.5px rgb(57, 57, 57);
+}
+
+.dateContent {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding: 0px 0px 10px 0px !important;
+}
+
+.dateInput {
+	width: 320px !important;
+}
+
+.sectionContent {
+	display: flex;
+	padding: 5px 0px !important;
+}
+
+.inputRangoHistory {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 3px;
+	margin-top: 10px;
+}
+
+.textTypificacion {
+	margin-top: 5px !important ;
+	margin-bottom: 5px !important;
+	font-weight: 600 !important;
+}
+.containerTable {
+	background-color: var(--red500) !important;
+}
+.containerTableHeaderCell {
+	padding-top: 2px !important;
+	padding-bottom: 2px !important;
+}
+.lookUpLabel {
+	font-weight: 500 !important;
+	color: #d5b76a !important;
+	margin-bottom: 5px !important;
+}
+.lookUpLabelClient {
+	font-weight: 500 !important;
+	color: #d5b76a !important;
+	margin-bottom: 5px !important;
+
+	margin-top: 5px !important;
+}
+.agentContact {
+	display: flex;
+	justify-content: space-between;
+}
+
+.typification {
+	margin-top: 10px;
+}
+.icon {
+	margin-right: 10px !important;
+	margin-bottom: 5px !important;
+}
+.header {
+	display: flex !important;
+
+	align-items: center !important;
+	color: #d5b76a;
+}
+
+.titleText {
+	font-weight: 700 !important;
+	color: var(--blue500) !important ;
+	font-size: 1.2rem !important;
+}
+.titleTextHistory {
+	font-weight: 700 !important;
+	color: var(--blue500) !important ;
+	font-size: 1.2rem !important;
+	margin-left: 5px !important;
+}
+.text {
+	font-weight: 800 !important;
+}
+.row {
+	display: flex;
+}
+.dropdown {
+	font-size: 6 !important;
+
+	font-weight: 800 !important;
+}
+.inputContainer {
+	display: flex !important;
+	align-items: center !important;
+}
+.inputContainerLabel {
+	display: flex !important;
+	align-items: flex-end !important;
+}
+
+.sizebutton {
+	background-color: #1959b3 !important;
+	color: #ffffff !important;
+	margin-left: 0.2rem !important;
+	align-items: center !important;
+	padding: 9px 8px !important;
+}
+
+.sizebutton:hover {
+	background-color: #2159a7 !important;
+}
+.messageErrorTextBox {
+	border: 1px solid #e0b4b4 !important;
+	margin-top: 5px !important;
+	color: #9f3a38 !important;
+	margin-bottom: 5px !important;
+	margin-left: 140px !important;
+	background-color: #fff !important;
+}
